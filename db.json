@@ -1,0 +1,16 @@
+{
+    "people": [
+        {
+            "id": 1,
+            "name": "Alice",
+            "height": 180,
+            "weight": 60
+        },
+        {
+            "id": 2,
+            "name": "Bob",
+            "height": 170,
+            "weight": 55
+        }
+    ]
+}
