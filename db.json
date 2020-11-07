@@ -4,6 +4,8 @@
             "id": 1,
             "name": "Hilmi Raditya",
             "email": "hilmiraditya@btpn.com",
+            "createdAt" : "2020-11-07T08:08:46+0000",
+            "updatedAt" : "2020-11-07T08:08:46+0000",
             "walletsId" : 1
         }
     ],
@@ -12,7 +14,17 @@
             "id": 1,
             "wallet_id" : 1,
             "amount": 10,
-            "type" : 1
+            "type" : "DEPOSIT",
+            "createdAt" : "2020-11-07T08:08:46+0000",
+            "updatedAt" : "2020-11-07T08:08:46+0000",
+        },
+        {
+            "id": 2,
+            "wallet_id" : 1,
+            "amount": 10,
+            "type" : "WITHDRAW",
+            "createdAt" : "2020-11-07T08:08:46+0000",
+            "updatedAt" : "2020-11-07T08:08:46+0000",
         }
     ],
     "wallets" : [
