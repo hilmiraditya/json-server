@@ -1,36 +1,55 @@
 {
-    "customers": [
-        {
-            "id": 1,
-            "name": "Hilmi Raditya",
-            "email": "hilmiraditya@btpn.com",
-            "createdAt" : "2020-11-07T08:08:46+0000",
-            "updatedAt" : "2020-11-07T08:08:46+0000",
-            "walletsId" : 1
-        }
-    ],
-    "transactions": [
-        {
-            "id": 1,
-            "wallet_id" : 1,
-            "amount": 10,
-            "type" : "DEPOSIT",
-            "createdAt" : "2020-11-07T08:08:46+0000",
-            "updatedAt" : "2020-11-07T08:08:46+0000"
-        },
-        {
-            "id": 2,
-            "wallet_id" : 1,
-            "amount": 10,
-            "type" : "WITHDRAW",
-            "createdAt" : "2020-11-07T08:08:46+0000",
-            "updatedAt" : "2020-11-07T08:08:46+0000"
-        }
-    ],
-    "wallets" : [
-        {
-            "id" : 1,
-            "balance" : 100
-        }
-    ]
+  "users": [
+    {
+      "email": "hilmiraditya@btpn.com",
+      "password": "$2a$10$czRBhycVfsKTSb91uHIva.xEAe5zAmexvt1ZmWxYl41cuhXwbB24K",
+      "id": 1
+    }
+  ],
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Hilmi",
+      "phone": 123
+    },
+    {
+      "id": 2,
+      "name": "Marcel",
+      "phone": 234
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Hilmi Raditya",
+      "email": "hilmiraditya@btpn.com",
+      "createdAt": "2020-11-07T08:08:46+0000",
+      "updatedAt": "2020-11-07T08:08:46+0000",
+      "walletsId": 1
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "wallet_id": 1,
+      "amount": 10,
+      "type": "DEPOSIT",
+      "createdAt": "2020-11-07T08:08:46+0000",
+      "updatedAt": "2020-11-07T08:08:46+0000"
+    },
+    {
+      "id": 2,
+      "wallet_id": 1,
+      "amount": 10,
+      "type": "WITHDRAW",
+      "createdAt": "2020-11-07T08:08:46+0000",
+      "updatedAt": "2020-11-07T08:08:46+0000"
+    }
+  ],
+  "wallets": [
+    {
+      "id": 1,
+      "balance": 100
+    }
+  ]
 }

@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/hilmiraditya/json-server/issues"
   },
-  "homepage": "https://github.com/hilmiraditya/json-server#readme"
+  "homepage": "https://github.com/hilmiraditya/json-server#readme",
+  "dependencies": {
+    "json-server-auth": "^2.0.2"
+  }
 }
